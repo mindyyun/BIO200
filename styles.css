@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-align: center;
 }
 h1 {
     z-index: 2000;
@@ -23,6 +24,31 @@ footer
     height: 200px;
     background: #3586ff;
 }
+p
+{
+    z-index: 2000;
+    position: relative;
+    margin: 0;
+    width: 100%;
+    color: #fff;
+}
+.options {
+    float: left;
+    width: 100%;
+    min-height: 50px;
+}
+.choice {
+    width: 33.33%;
+    min-height: 50px;
+    background-color: #fff;
+    float: left;
+}
+.game {
+    width: 40%;
+    background-color: #fff;
+    margin: 0 25%;
+}
+
 footer .wave
 {
     position: absolute;
