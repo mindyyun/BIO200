@@ -2,12 +2,11 @@
 {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     text-align: center;
 }
 h1 {
-    z-index: 2000;
-    margin: auto;
+    z-index: 10;
+    margin: 100px 0;
     color: #fff;
 }
 body {
@@ -21,29 +20,31 @@ footer
 {
     position: relative;
     width: 100%;
-    height: 200px;
+    height: 6000px;
     background: #3586ff;
 }
 p
 {
-    z-index: 2000;
-    position: relative;
-    margin: 0;
+    position: absolute;
+    height: 200px;
     width: 100%;
     color: #fff;
 }
 .options {
+    z-index: 10;
     float: left;
     width: 100%;
     min-height: 50px;
 }
 .choice {
+    z-index: 10;
     width: 33.33%;
     min-height: 50px;
     background-color: #fff;
     float: left;
 }
 .game {
+    z-index: 10;
     width: 40%;
     background-color: #fff;
     margin: 0 25%;
@@ -60,28 +61,28 @@ footer .wave
 }
 footer .wave#wave1
 {
-    z-index: 1000;
+    z-index: 3;
     opacity: 1;
     bottom: 0px;
     animation: animate 4s linear infinite;
 }
 footer .wave#wave3
 {
-    z-index: 999;
+    z-index: 2;
     opacity: 0.2;
     bottom: 15px;
     animation: animate 3s linear infinite;
 }
 footer .wave#wave2
 {
-    z-index: 998;
+    z-index: 1;
     opacity: 0.5;
     bottom: 10px;
     animation: animate2 4s linear infinite;
 }
 footer .wave#wave4
 {
-    z-index: 999;
+    z-index: 1;
     opacity: 0.7;
     bottom: 20px;
     animation: animate2 3s linear infinite;
