@@ -61,6 +61,9 @@ a {
     margin-left: 70%;
     background: #3586ff;
     text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 footer .wave
 {
