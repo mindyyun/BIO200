@@ -48,7 +48,12 @@ p {
     width: center;
     background: #3586ff;
 }
-
+.back-button {
+    position: absolute;
+    width: 20%;
+    margin-left: 80%;
+    background: #3586ff;
+}
 footer .wave
 {
     position: absolute;
