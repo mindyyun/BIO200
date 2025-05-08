@@ -1,10 +1,16 @@
+@font-face { 
+    font-family:'Pirate';
+    src:url('fonts/Vinque Rg.otf') format('truetype');
+}
+
 *
 {
     margin: 0;
     padding: 0;
     text-align: center;
+   
 }
-h1 {
+h1, h2 {
     z-index: 10;
     margin: 100px 0;
     color: #fff;
@@ -16,7 +22,7 @@ body {
     min-height: 100vh;
     background: #333;
 }
-footer
+footer, section
 {
     position: relative;
     width: 100%;
@@ -123,4 +129,59 @@ footer .wave#wave4
     {
         background-position: 1000px;
     }
+
 }
+.background {
+    position: relative;
+    width: 100%;
+    min-height: 300px;
+    background: #3586ff;
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    margin:0 auto;
+    padding:20px;
+}
+
+.hort_sec {
+    position:relative;
+
+    width:100%;
+    gap: 15px;
+    object-fit:contain;
+    background:#3586ff;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+
+
+}
+    
+.krack { 
+    background:#3586ff;
+    width:500px;
+    margin: 50px 0 0;
+    border: 10px solid #333;
+}
+.imgs {
+     background:#3586ff;
+     width:750px;
+     margin:auto;
+     
+}
+.p_test {
+    position: static;
+    background:#3586ff ;
+    height:auto;
+    width:auto;
+    font-size:25px;
+    margin:auto 0;
+    font-family:'Pirate',sans-serif;
+}
+
+.blk {
+    color:#000000;
+    font-size:35px;
+    font-family:'Pirate',sans-serif;
+}
+
